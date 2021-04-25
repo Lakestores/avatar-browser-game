@@ -1,0 +1,81 @@
+@font-face {
+	font-family: avatarFont;
+  	src: url(../fonts/mf.ttf);
+}
+
+body {	
+	background-image: url("../img/img.png");
+	background-size: cover;
+	background-color: rgb(146, 252, 194, 1);
+	margin-left: 1%;
+	margin-right: 1%;
+	font-family: avatarFont;
+	font-size: 30px;
+}
+
+
+.headbar {
+	margin-bottom: 1%;
+	border:1px solid #000000;
+	background-color:rgb(150, 110, 0, 1);
+	height: 15px;
+}
+.banner {
+	
+	margin-top: 1%;
+	border:1px solid #000000;
+  	color: #000000	;
+	text-align: center;
+}
+
+.mapa{
+	border:1px solid #666666;
+	min-height: 150px;
+	max-width: 150px;
+	margin-left: 40%;
+	margin-top: 2%;
+
+	display: flex;
+}
+.mapgrid{
+	flex: auto;
+}
+.secao {
+	flex: auto;
+	height: 50px;
+	border:1px solid #666666;
+}
+
+.content {
+	
+	margin-bottom: 1%;
+	min-height: 300px;
+	border:1px solid #666666;
+	color: #9ca7b8;
+
+}
+
+.panel{
+	margin: 6%;	
+}
+
+
+
+.airnation{
+	background-color: rgba(255, 255, 255, 1);
+}
+.waternation{
+	background-color: rgba(0, 132, 255, 1);
+}
+.firenation{
+	background-color: rgba(255, 38, 0, 1);
+}
+.earthnation{
+	background-color: rgba(44, 26, 0, 1);
+}
+
+
+
+#login {
+
+}
